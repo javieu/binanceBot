@@ -1,0 +1,10 @@
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.next
+release.properties
+.settings/
+.project
+.classpath
+LOGS_PATH_IS_UNDEFINED
+
