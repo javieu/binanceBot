@@ -80,9 +80,9 @@ public class BinanceBot {
 			}
 		}
 		if (interval == null) {
-			interval = CandlestickInterval.FOUR_HORLY;
+			interval = CandlestickInterval.FOUR_HOURLY;
 			Log.info(BinanceBot.class, "Using default candlestick interval: "
-					+ CandlestickInterval.FOUR_HORLY.getIntervalId());
+					+ CandlestickInterval.FOUR_HOURLY.getIntervalId());
 		}
 
 		// Trading settings
